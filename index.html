@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <br> <span>Random Password</span></h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            <img class="img" src="copy.png" alt="">
+        </div>
+        <div class="butt">
+        <button class="button"><img src="generate.png" alt="generate password">Generate Password</button>
+        <button class="button2"><img src="icons8-password-50.png" alt="generate password">Checking Password</button>
+        </div>
+
+        
+          
+    </div>
+
+    <div id="message">
+        <h1>Password must contain the following:</h1>
+        <div class="terms">
+        <p id="letter" class="invalid">A <b>Lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>Capital (Uppercase)</b> letter</p>
+        <p id="number" class="invalid">A <b>Number</b></p>
+        <p id="length" class="invalid">Minimum <b>16 characters</b></p>
+        <p id="sym" class="invalid">A Special <b>character</b></p>
+        </div>
+      </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
